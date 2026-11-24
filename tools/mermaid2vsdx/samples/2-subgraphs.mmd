@@ -1,0 +1,20 @@
+flowchart TB
+    U[User] --> LB
+    subgraph Cloud[Cloud region]
+        direction TB
+        LB[Load balancer]
+        subgraph Web[Web tier]
+            W1[Web 1]
+            W2[Web 2]
+        end
+        subgraph Data[Data tier]
+            DB[(Primary DB)]
+            R[(Replica)]
+        end
+        LB --> W1 & W2
+        W1 --> DB
+        W2 --> DB
+        DB -.-> R
+    end
+    W1 ==> Cache[Cache]
+    DB ~~~ Cache

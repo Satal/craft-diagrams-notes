@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# APP=<checkout> selects the FigCraft checkout (default figcraft). Build the FigCraft web app (trunk, release) in Docker and (re)start the nginx container serving it on :8767.
+set -euo pipefail
+ROOT=/home/satal/code/craft-diagrams
+APP=${APP:-$ROOT/figcraft}
+flock "$ROOT/.cargo.lock" docker run --rm --init --memory=6g --memory-swap=6g --cpus=3 \
+  --user "$(id -u):$(id -g)" -e HOME=/cache/home -e CARGO_HOME=/cache/cargo-home -e CARGO_BUILD_JOBS=3 \
+  -e CARGO_PROFILE_WEB_RELEASE_LTO=thin -e CARGO_PROFILE_WEB_RELEASE_CODEGEN_UNITS=16 -e TRUNK_SKIP_VERSION_CHECK=true -e TRUNK_TOOLS_WASM_BINDGEN=0.2.129 \
+  -v "$ROOT/.cache:/cache" -v "$ROOT:$ROOT" -w "$APP/apps/figcraft-web" \
+  craft-rust-web:1.95 trunk build --release "$@"
+docker rm -f figcraft-try >/dev/null 2>&1 || true
+docker run -d --name figcraft-try --restart unless-stopped -p 8767:80 \
+  -v "$APP/dist/web:/usr/share/nginx/html:ro" nginx:alpine >/dev/null
+echo "serving on http://$(hostname -I | awk '{print $1}'):8767/"

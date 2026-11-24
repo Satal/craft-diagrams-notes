@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="331" height="611" viewBox="0 0 331.48 610.80" font-family="Calibri, Arial, sans-serif" font-size="12">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<path d="M206.08 24.00 L246.08 24.00 C256.02 24.00 264.08 32.06 264.08 42.00 L264.08 42.00 C264.08 51.94 256.02 60.00 246.08 60.00 L206.08 60.00 C196.14 60.00 188.08 51.94 188.08 42.00 L188.08 42.00 C188.08 32.06 196.14 24.00 206.08 24.00 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="226.08" text-anchor="middle" fill="#000000"><tspan x="226.08" y="42.00" dy="0.35em">Start</tspan></text>
+<path d="M176.08 110.00 L276.08 110.00 L276.08 146.00 L176.08 146.00 L176.08 110.00 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="226.08" text-anchor="middle" fill="#000000"><tspan x="226.08" y="128.00" dy="0.35em">Read input</tspan></text>
+<path d="M101.00 196.00 L153.56 226.00 L101.00 256.00 L48.44 226.00 L101.00 196.00 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="101.00" text-anchor="middle" fill="#000000"><tspan x="101.00" y="226.00" dy="0.35em">Valid?</tspan></text>
+<path d="M24.00 324.40 L102.40 324.40 L102.40 360.40 L24.00 360.40 L24.00 324.40 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="63.20" text-anchor="middle" fill="#000000"><tspan x="63.20" y="342.40" dy="0.35em">Process</tspan></text>
+<path d="M151.88 324.40 L251.88 324.40 L251.88 360.40 L151.88 360.40 L151.88 324.40 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="201.88" text-anchor="middle" fill="#000000"><tspan x="201.88" y="342.40" dy="0.35em">Show error</tspan></text>
+<path d="M172.28 410.40 L253.64 440.40 L172.28 470.40 L90.92 440.40 L172.28 410.40 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="172.28" text-anchor="middle" fill="#000000"><tspan x="172.28" y="440.40" dy="0.35em">More items?</tspan></text>
+<path d="M148.28 562.80 A24.00 24.00 0 1 0 196.28 562.80 A24.00 24.00 0 1 0 148.28 562.80 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="172.28" text-anchor="middle" fill="#000000"><tspan x="172.28" y="562.80" dy="0.35em">Done</tspan></text>
+<polyline points="226.08,60.00 226.08,110.00" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="182.08,146.00 182.08,158.50 101.00,158.50 101.00,196.00" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="63.20,234.42 63.20,324.40" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<rect x="49.40" y="271.21" width="27.60" height="16.40" fill="#fff" fill-opacity="0.85"/>
+<text x="63.20" text-anchor="middle" fill="#333333"><tspan x="63.20" y="279.41" dy="0.35em">yes</tspan></text>
+<polyline points="147.56,229.42 147.56,268.50 165.60,268.50 165.60,324.40" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<rect x="154.79" y="260.30" width="20.40" height="16.40" fill="#fff" fill-opacity="0.85"/>
+<text x="164.99" text-anchor="middle" fill="#333333"><tspan x="164.99" y="268.50" dy="0.35em">no</tspan></text>
+<polyline points="226.08,324.40 226.08,146.00" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="63.20,360.40 63.20,397.90 96.92,397.90 96.92,438.19" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="247.64,438.19 247.64,397.90 271.88,397.90 271.88,158.50 270.08,158.50 270.08,146.00" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<rect x="258.08" y="295.11" width="27.60" height="16.40" fill="#fff" fill-opacity="0.85"/>
+<text x="271.88" text-anchor="middle" fill="#333333"><tspan x="271.88" y="303.31" dy="0.35em">yes</tspan></text>
+<polyline points="172.28,470.40 172.28,538.80" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<rect x="162.08" y="496.40" width="20.40" height="16.40" fill="#fff" fill-opacity="0.85"/>
+<text x="172.28" text-anchor="middle" fill="#333333"><tspan x="172.28" y="504.60" dy="0.35em">no</tspan></text>
+</svg>

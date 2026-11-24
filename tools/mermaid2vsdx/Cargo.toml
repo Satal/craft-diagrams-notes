@@ -1,0 +1,16 @@
+[package]
+name = "mermaid2vsdx"
+version = "0.1.0"
+edition = "2024"
+description = "Local tool: Mermaid flowchart to .vsdx (and .svg preview) via craft-mermaid, craft-graph-layout and craft-vsdx"
+publish = false
+
+[workspace]
+
+[dependencies]
+craft-mermaid = { path = "../../craft-libs-mermaid/crates/mermaid" }
+craft-graph-layout = { path = "../../craft-libs/crates/graph-layout" }
+craft-vsdx = { path = "../../craft-libs-vsdx/crates/vsdx" }
+
+[profile.release]
+opt-level = 2

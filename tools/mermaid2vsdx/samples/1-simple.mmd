@@ -1,0 +1,9 @@
+flowchart TD
+    A([Start]) --> B[Read input]
+    B --> C{Valid?}
+    C -- yes --> D[Process]
+    C -- no --> E[Show error]
+    E --> B
+    D --> F{More items?}
+    F -->|yes| B
+    F -->|no| G((Done))

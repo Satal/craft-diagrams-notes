@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2364" height="150" viewBox="0 0 2364.43 150.38" font-family="Calibri, Arial, sans-serif" font-size="12">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<path d="M24.00 62.00 L88.00 62.00 L88.00 98.00 L24.00 98.00 L24.00 62.00 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="56.00" text-anchor="middle" fill="#000000"><tspan x="56.00" y="80.00" dy="0.35em">Rect</tspan></text>
+<path d="M148.00 62.00 L206.40 62.00 C211.92 62.00 216.40 66.48 216.40 72.00 L216.40 88.00 C216.40 93.52 211.92 98.00 206.40 98.00 L148.00 98.00 C142.48 98.00 138.00 93.52 138.00 88.00 L138.00 72.00 C138.00 66.48 142.48 62.00 148.00 62.00 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="177.20" text-anchor="middle" fill="#000000"><tspan x="177.20" y="80.00" dy="0.35em">Rounded</tspan></text>
+<path d="M284.40 24.00 L338.80 24.00 C348.74 24.00 356.80 32.06 356.80 42.00 L356.80 42.00 C356.80 51.94 348.74 60.00 338.80 60.00 L284.40 60.00 C274.46 60.00 266.40 51.94 266.40 42.00 L266.40 42.00 C266.40 32.06 274.46 24.00 284.40 24.00 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="311.60" text-anchor="middle" fill="#000000"><tspan x="311.60" y="42.00" dy="0.35em">Stadium</tspan></text>
+<path d="M406.80 43.00 L522.80 43.00 L522.80 79.00 L406.80 79.00 L406.80 43.00 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<path d="M415.80 43.00 L415.80 79.00 " fill="none" stroke="#9370db" stroke-width="1.25"/>
+<path d="M513.80 43.00 L513.80 79.00 " fill="none" stroke="#9370db" stroke-width="1.25"/>
+<text x="464.80" text-anchor="middle" fill="#000000"><tspan x="464.80" y="61.00" dy="0.35em">Subroutine</tspan></text>
+<path d="M572.80 39.80 C572.80 35.38 591.96 31.80 615.60 31.80 C639.24 31.80 658.40 35.38 658.40 39.80 L658.40 82.20 C658.40 86.62 639.24 90.20 615.60 90.20 C591.96 90.20 572.80 86.62 572.80 82.20 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<path d="M572.80 39.80 C572.80 44.22 591.96 47.80 615.60 47.80 C639.24 47.80 658.40 44.22 658.40 39.80 " fill="none" stroke="#9370db" stroke-width="1.25"/>
+<text x="615.60" text-anchor="middle" fill="#000000"><tspan x="615.60" y="61.00" dy="0.35em">Database</tspan></text>
+<path d="M708.40 61.00 A28.77 28.77 0 1 0 765.94 61.00 A28.77 28.77 0 1 0 708.40 61.00 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="737.17" text-anchor="middle" fill="#000000"><tspan x="737.17" y="61.00" dy="0.35em">Circle</tspan></text>
+<path d="M815.94 61.00 A34.77 34.77 0 1 0 885.47 61.00 A34.77 34.77 0 1 0 815.94 61.00 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<path d="M821.94 61.00 A28.77 28.77 0 1 0 879.47 61.00 A28.77 28.77 0 1 0 821.94 61.00 Z" fill="none" stroke="#9370db" stroke-width="1.25"/>
+<text x="850.71" text-anchor="middle" fill="#000000"><tspan x="850.71" y="61.00" dy="0.35em">Double</tspan></text>
+<path d="M999.55 58.38 L1063.63 88.38 L999.55 118.38 L935.47 88.38 L999.55 58.38 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="999.55" text-anchor="middle" fill="#000000"><tspan x="999.55" y="88.38" dy="0.35em">Decision</tspan></text>
+<path d="M1125.63 68.38 L1208.03 68.38 L1220.03 88.38 L1208.03 108.38 L1125.63 108.38 L1113.63 88.38 L1125.63 68.38 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="1166.83" text-anchor="middle" fill="#000000"><tspan x="1166.83" y="88.38" dy="0.35em">Hexagon</tspan></text>
+<path d="M1280.83 70.38 L1390.03 70.38 L1379.23 106.38 L1270.03 106.38 L1280.83 70.38 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="1330.03" text-anchor="middle" fill="#000000"><tspan x="1330.03" y="88.38" dy="0.35em">Lean right</tspan></text>
+<path d="M1440.03 70.38 L1542.03 70.38 L1552.83 106.38 L1450.83 106.38 L1440.03 70.38 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="1496.43" text-anchor="middle" fill="#000000"><tspan x="1496.43" y="88.38" dy="0.35em">Lean left</tspan></text>
+<path d="M1613.63 70.38 L1719.23 70.38 L1730.03 106.38 L1602.83 106.38 L1613.63 70.38 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="1666.43" text-anchor="middle" fill="#000000"><tspan x="1666.43" y="88.38" dy="0.35em">Trap bottom</tspan></text>
+<path d="M1780.03 70.38 L1885.63 70.38 L1874.83 106.38 L1790.83 106.38 L1780.03 70.38 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="1832.83" text-anchor="middle" fill="#000000"><tspan x="1832.83" y="88.38" dy="0.35em">Trap top</tspan></text>
+<path d="M1935.63 70.38 L2047.63 70.38 L2047.63 106.38 L1935.63 106.38 L1946.43 88.38 L1935.63 70.38 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="1991.63" text-anchor="middle" fill="#000000"><tspan x="1991.63" y="88.38" dy="0.35em">Asymmetric</tspan></text>
+<path d="M2097.63 59.98 L2226.43 59.98 L2226.43 108.78 C2200.67 100.78 2187.79 100.78 2162.03 108.78 C2136.27 116.78 2123.39 116.78 2097.63 108.78 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="2162.03" text-anchor="middle" fill="#000000"><tspan x="2162.03" y="81.18" dy="0.35em">Document</tspan><tspan x="2162.03" y="95.58" dy="0.35em">with two lines</tspan></text>
+<path d="M2276.43 70.38 L2340.43 70.38 L2340.43 106.38 L2276.43 106.38 L2276.43 70.38 Z" fill="#ececff" stroke="#9370db" stroke-width="1.25"/>
+<text x="2308.43" text-anchor="middle" fill="#000000"><tspan x="2308.43" y="88.38" dy="0.35em">Cloud</tspan></text>
+<polyline points="88.00,80.00 138.00,80.00" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="216.40,68.00 241.40,68.00 241.40,54.00 266.40,54.00" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="356.80,51.50 406.80,51.50" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="522.80,61.00 572.80,61.00" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="658.40,61.00 708.40,61.00" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="765.94,61.00 815.94,61.00" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="882.66,74.69 964.72,74.69" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="1063.63,88.38 1113.63,88.38" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="1220.03,88.38 1275.43,88.38" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="1384.63,88.38 1445.43,88.38" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="1547.43,88.38 1608.23,88.38" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="1724.63,88.38 1785.43,88.38" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="1880.23,88.38 1946.43,88.38" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="2047.63,88.38 2097.63,88.38" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="2226.43,88.38 2276.43,88.38" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="88.00,68.00 113.00,68.00 113.00,42.00 266.40,42.00" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="216.40,80.00 381.80,80.00 381.80,73.00 406.80,73.00" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<polyline points="88.00,92.00 113.00,92.00 113.00,126.38 910.47,126.38 910.47,112.38 986.74,112.38" fill="none" stroke="#333333" stroke-width="1.25" marker-start="url(#a)" marker-end="url(#a)"/>
+</svg>

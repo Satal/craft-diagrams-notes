@@ -1,0 +1,17 @@
+flowchart LR
+    a[Rect] --> b(Rounded) --> c([Stadium]) --> d[[Subroutine]]
+    d --> e[(Database)]
+    e --> f((Circle))
+    f --> g(((Double)))
+    g --> h{Decision}
+    h --> i{{Hexagon}}
+    i --> j[/Lean right/]
+    j --> k[\Lean left\]
+    k --> l[/Trap bottom\]
+    l --> m[\Trap top/]
+    m --> n>Asymmetric]
+    n --> o@{ shape: doc, label: "Document\nwith two lines" }
+    o --> p@{ shape: cloud, label: "Cloud" }
+    a --o c
+    b --x d
+    a <--> h

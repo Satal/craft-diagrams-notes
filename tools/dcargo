@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Run cargo inside the craft-rust image. Usage: dcargo <repo-dir> <cargo args...>
+# Builds are serialised with flock and capped (5 GB RAM, 3 CPUs) so parallel agents can't OOM the box.
+set -euo pipefail
+ROOT=/home/satal/code/craft-diagrams
+repo=$(realpath "$1"); shift
+exec flock "$ROOT/.cargo.lock" docker run --rm --init \
+  --memory=5g --memory-swap=5g --cpus=3 \
+  --user "$(id -u):$(id -g)" \
+  -e CARGO_HOME=/cache/cargo-home -e CARGO_BUILD_JOBS=3 -e CARGO_TERM_COLOR=never \
+  -v "$ROOT/.cache:/cache" -v "$ROOT:$ROOT" -w "$repo" \
+  craft-rust:1.95 cargo "$@"

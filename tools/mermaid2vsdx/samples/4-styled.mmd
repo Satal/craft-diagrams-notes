@@ -1,0 +1,16 @@
+flowchart TD
+    classDef ok fill:#d4f4dd,stroke:#2e8b57,stroke-width:2px,color:#114
+    classDef bad fill:#fdd,stroke:#c00,color:#800
+    classDef default fill:#fff,stroke:#555
+    A[Deploy] --> B{Tests pass?}
+    B -->|yes| C[Release]:::ok
+    B -->|no| D[Rollback]:::bad
+    C --> E[Notify team]
+    D --> E
+    style E fill:#ffe9a8,stroke:#b8860b,stroke-width:3px
+    linkStyle 0 stroke:#2e8b57,stroke-width:3px
+    linkStyle 3 stroke:#c00,stroke-dasharray:4 3
+    subgraph Ops[Operations]
+        E
+    end
+    style Ops fill:#eef,stroke:#66a

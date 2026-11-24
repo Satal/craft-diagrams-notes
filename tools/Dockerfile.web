@@ -1,0 +1,2 @@
+FROM craft-rust:1.95
+RUN curl -fsSL https://github.com/trunk-rs/trunk/releases/download/v0.22.2/trunk-x86_64-unknown-linux-gnu.tar.gz | tar -xz -C /usr/local/bin trunk  && curl -fsSL https://github.com/rustwasm/wasm-bindgen/releases/download/0.2.129/wasm-bindgen-0.2.129-x86_64-unknown-linux-musl.tar.gz | tar -xz --strip-components=1 -C /usr/local/bin wasm-bindgen-0.2.129-x86_64-unknown-linux-musl/wasm-bindgen  && trunk --version && wasm-bindgen --version

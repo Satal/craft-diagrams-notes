@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="252" height="445" viewBox="0 0 252.00 445.40" font-family="Calibri, Arial, sans-serif" font-size="12">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<path d="M52.60 323.40 L195.80 323.40 L195.80 421.40 L52.60 421.40 L52.60 323.40 Z" fill="#eeeeff" stroke="#6666aa" stroke-width="1"/>
+<text x="124.20" text-anchor="middle" fill="#000000"><tspan x="124.20" y="336.40" dy="0.35em">Operations</tspan></text>
+<path d="M88.60 24.00 L159.80 24.00 L159.80 60.00 L88.60 60.00 L88.60 24.00 Z" fill="#ffffff" stroke="#555555" stroke-width="1.25"/>
+<text x="124.20" text-anchor="middle" fill="#000000"><tspan x="124.20" y="42.00" dy="0.35em">Deploy</tspan></text>
+<path d="M124.20 110.00 L205.56 140.00 L124.20 170.00 L42.84 140.00 L124.20 110.00 Z" fill="#ffffff" stroke="#555555" stroke-width="1.25"/>
+<text x="124.20" text-anchor="middle" fill="#000000"><tspan x="124.20" y="140.00" dy="0.35em">Tests pass?</tspan></text>
+<path d="M24.00 238.40 L102.40 238.40 L102.40 274.40 L24.00 274.40 L24.00 238.40 Z" fill="#d4f4dd" stroke="#2e8b57" stroke-width="2"/>
+<text x="63.20" text-anchor="middle" fill="#111144"><tspan x="63.20" y="256.40" dy="0.35em">Release</tspan></text>
+<path d="M142.40 238.40 L228.00 238.40 L228.00 274.40 L142.40 274.40 L142.40 238.40 Z" fill="#ffdddd" stroke="#cc0000" stroke-width="1.25"/>
+<text x="185.20" text-anchor="middle" fill="#880000"><tspan x="185.20" y="256.40" dy="0.35em">Rollback</tspan></text>
+<path d="M70.60 367.40 L177.80 367.40 L177.80 403.40 L70.60 403.40 L70.60 367.40 Z" fill="#ffe9a8" stroke="#b8860b" stroke-width="3"/>
+<text x="124.20" text-anchor="middle" fill="#000000"><tspan x="124.20" y="385.40" dy="0.35em">Notify team</tspan></text>
+<polyline points="124.20,60.00 124.20,110.00" fill="none" stroke="#2e8b57" stroke-width="3" marker-end="url(#a)"/>
+<polyline points="63.20,147.51 63.20,238.40" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<rect x="49.40" y="184.75" width="27.60" height="16.40" fill="#fff" fill-opacity="0.85"/>
+<text x="63.20" text-anchor="middle" fill="#333333"><tspan x="63.20" y="192.95" dy="0.35em">yes</tspan></text>
+<polyline points="185.20,147.51 185.20,238.40" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+<rect x="175.00" y="184.75" width="20.40" height="16.40" fill="#fff" fill-opacity="0.85"/>
+<text x="185.20" text-anchor="middle" fill="#333333"><tspan x="185.20" y="192.95" dy="0.35em">no</tspan></text>
+<polyline points="63.20,274.40 63.20,311.40 76.60,311.40 76.60,367.40" fill="none" stroke="#cc0000" stroke-width="1.25" stroke-dasharray="6 4" marker-end="url(#a)"/>
+<polyline points="185.20,274.40 185.20,311.40 171.80,311.40 171.80,367.40" fill="none" stroke="#333333" stroke-width="1.25" marker-end="url(#a)"/>
+</svg>
